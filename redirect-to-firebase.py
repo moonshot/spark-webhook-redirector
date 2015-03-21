@@ -7,9 +7,6 @@ See API reference at
 import json
 import os
 from netlib.odict import ODict
-import urlparse
-
-from libmproxy.protocol.http import HTTPResponse
 
 FIREBASE_APP = os.environ.get('FIREBASE_APP', 'YOUR APP HERE')
 FIREBASE_API_KEY = os.environ.get('FIREBASE_API_KEY', 'YOUR SECRET HERE')
